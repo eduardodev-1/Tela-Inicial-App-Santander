@@ -29,7 +29,7 @@ fun CreditCard(
     number: String = ""
 ) {
     AppCard(
-        modifier = Modifier
+        modifier = modifier
             .fillMaxWidth()
             .height(66.dp),
         containerColor = MaterialTheme.colorScheme.primary

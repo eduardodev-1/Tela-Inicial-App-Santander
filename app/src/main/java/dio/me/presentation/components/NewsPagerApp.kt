@@ -42,7 +42,7 @@ fun NewsPagerApp(
     modifier: Modifier = Modifier,
     news: List<News> = emptyList()
 ) {
-    Column() {
+    Column(modifier = modifier) {
         var pagerState = rememberPagerState(pageCount = {
             news.size
         })
